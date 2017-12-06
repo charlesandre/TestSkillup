@@ -1,6 +1,6 @@
 # Test technique Skillup
 
-Pour lancer : 
+Pour lancer :
 
 - Cloner le repo
 
@@ -11,11 +11,8 @@ Pour lancer :
 - scrapy crawl comundibot
 
 
+_ Output :
 
-# Problèmes :
-
-Il y'a des elements dupliqués dans le csv. 
-Manques les valeures traitées.
-
-
-
+- Le csv de sorti s'appel formation.csv
+- Il ne contient pas de doublons
+-Les données sont bien traités sauf si l'info n'est pas dispo (C'est le cas pour les formations qui sont dispensés seulement dans les etablissements)
